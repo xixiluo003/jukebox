@@ -1,0 +1,175 @@
+
+/* ======= ======= ======= ======= ======= general ======= ======= ======= ======= ======= */
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ariel", sans-serif;
+    border: 2px solid cadetblue;
+}
+
+/* ======= container ======= */
+#content {
+    height: 100%;
+}
+
+/* ======= popupBox ======= */
+.popupBox {
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    z-index: 1;
+    height: 50%;
+    width: 50%;
+    display: none;
+}
+
+#popup {
+  background-color: #BEF6FA;
+  border: 2px groove white;
+  box-shadow: 5px 5px 5px #555
+}
+/* ======= form ======= */
+
+.inputBox {
+  font-size: 25px;
+  text-align: center;
+  margin: 15% 0 0 0;
+  /*border: 2px solid purple;*/
+}
+/* ======= close button ======= */
+
+.closeBox {
+  float:right;
+}
+#closeButton:hover {
+  background-color: #BEF6FA;
+}
+
+#closeButton {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  border: 1px #eee outset;
+  background-color: #9DDEE3;
+}
+
+/* ======= save button ======= */
+
+.saveBox {
+  float: left;
+  text-align: center;
+  height: 35px;
+  width: 100px;
+  margin: 10% 0 0 40%;
+}
+
+#saveButton>p {
+  font-size: 25px;
+  background-color: #9DDEE3;
+  border: 1px #eee outset;
+  margin: 5px 5px 5px 5px;
+}
+
+#saveButton>p:hover {
+  background-color: #BEF6FA;
+}
+
+
+
+/*======= playbox ======= */
+.playBox {
+  margin: 1% 0 0 10%;
+  /*border: 2px solid cadetblue;*/
+  width: 78%;
+  height: 12%;
+}
+
+.seletDropbox {
+  float: left;
+  /*border: 2px solid cadetblue;*/
+  margin: 6% 0 0 2%;
+  height: 20%;
+  width: 25%;
+}
+
+#playlist {
+  text-align: center;
+}
+
+.nowPlayingbox {
+  float: right;
+  /*border: 2px solid cadetblue;*/
+  margin: 2% 3% 0 0;
+  height: 35%;
+  width: 65%;
+  font-size: 30px;
+}
+
+
+/*======= mainBox ======= */
+
+.mainBox {
+  float: left;
+  margin: 2% 0 0 10%;
+  border: 2px solid cadetblue;
+  width: 78%;
+  height: 25%;
+}
+
+.mainPlayer {
+  float: left;
+  margin: 12px 0 0 4.5%;
+  /*border: 2px solid pink;*/
+  width: 90%;
+  height: 40%;
+}
+#audioplay {
+  width: 100%;
+  margin: 3% 0 0 0;
+}
+
+.loadButton {
+  float: left;
+  border: 2px solid pink;
+  height: 35%;
+  width: 15%;
+  margin: 10px 3% 0 2%;
+}
+
+#loadSong {
+  text-align: center;
+  font-size: 20px;
+  margin: 15% 0 0 3%;
+  color: pink;
+}
+
+.controlButton {
+  float: left;
+  border: 2px solid pink;
+  height: 25%;
+  width: 14%;
+  margin: 20px 0 0 1%;
+  color: pink;
+  text-align: center;
+}
+
+/*======= imgBox ======= */
+.songImg {
+  float: left;
+  /*border: 2px solid pink;*/
+  height: 50%;
+  width: 50%;
+  margin: 1% 0 0 30%;
+}
+
+
+
+
+
+/* ======= ======= ======= ======= ======= ARCHIVE ======= ======= ======= ======= ======= */
+/* ======= ======= ======= ======= ======= ARCHIVE ======= ======= ======= ======= ======= */
+/* ======= ======= ======= ======= ======= ARCHIVE ======= ======= ======= ======= ======= */
